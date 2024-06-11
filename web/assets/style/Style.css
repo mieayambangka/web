@@ -1,0 +1,104 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-display: none;
+    background-color: #f7a84e;
+}
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+  
+}
+
+.profileimage {
+    width: 200px;
+    margin-top: 100px;
+    
+    
+}
+
+.profile h2 {
+    font-size: 30;
+    color: black;
+    margin-top: 10px;
+}
+
+.profile h3 {
+    font-size: 30;
+    color: black;
+    margin-top: -10px;
+}
+
+
+.about{
+    
+    margin-bottom: 20px;
+   
+    
+}
+
+.career {
+    background: linear-gradient(rgb(255, 255, 255) 0%,#f7a84e 80% , rgba(255, 255, 255, 0) 20%);
+   padding-top : 200px;
+}
+
+
+.achievment {
+    padding-top: 60px;
+}
+
+.career h1 {
+    font-style: bold;
+}
+
+.col {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+      
+}
+
+.pendidikan {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row {
+    padding-bottom: 80px;
+}
+
+
+.footer {
+    background-color: #ffff;
+    padding-bottom: 20px ;
+}
+
+.contact-footer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  
+
+}
+
+.contact a {
+    color: black;
+    font-size: 40px;
+}
